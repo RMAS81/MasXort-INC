@@ -1,13 +1,25 @@
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-black text-white p-4">
-      <h1 className="text-4xl md:text-6xl font-bold mb-4 text-center">🚀 Welcome to <span className="text-blue-400">MasXort INC</span></h1>
-      <p className="text-lg md:text-xl text-center mb-8">Future Starts Here</p>
-      <div className="bg-gray-900 p-6 rounded-xl shadow-lg text-center w-full max-w-md">
-        <p className="text-md md:text-lg mb-2">📧 <a href="mailto:rmas@masxort.com" className="text-blue-300 hover:underline">rmas@masxort.com</a></p>
-        <p className="text-md md:text-lg">📞 <a href="tel:+13057640077" className="text-blue-300 hover:underline">305-764-0077</a></p>
+    <main className="flex min-h-screen flex-col items-center justify-center bg-gray-900 text-white p-8">
+      <h1 className="text-5xl font-bold mb-4">MasXort INC</h1>
+      <p className="text-xl mb-6">Built on Simplicity. Engineered to Evolve.</p>
+      <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-left max-w-2xl w-full">
+        <h2 className="text-2xl font-semibold mb-4">Our Services</h2>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Cloud Infrastructure & Hybrid Environments</li>
+          <li>IT Operations & Monitoring Solutions</li>
+          <li>Cybersecurity and Zero Trust Architecture</li>
+          <li>Office 365 & Exchange Management</li>
+          <li>Nutanix & VMware Virtualization</li>
+          <li>iSCSI SAN, NAS, and Storage Solutions</li>
+          <li>Automation & DevOps with Terraform and CI/CD</li>
+        </ul>
       </div>
-      <footer className="mt-10 text-sm text-gray-400">Built with ❤️ by MiAngel AI and Rafael Mas</footer>
+      <footer className="mt-10 text-center text-sm">
+        <p>Contact: rmas@masxort.com | 305-764-0077</p>
+        <p className="text-gray-400 mt-2">Built with ❤️ by MiAngel AI and Rafael Mas</p>
+      </footer>
     </main>
   );
 }
